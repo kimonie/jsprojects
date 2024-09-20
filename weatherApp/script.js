@@ -33,6 +33,7 @@ async function checkWeather(city) {
     humidity.innerHTML = data.main.humidity + "%";
     wind.innerHTML = data.wind.speed + "km/h";
 
+    // WEATHER ICON
     if(data.weather[0].main == "Clouds") {
         weatherIcon.src = "images/clouds.svg"
     } 
@@ -48,7 +49,6 @@ async function checkWeather(city) {
     else if (data.weather[0].main == "Mist") {
         weatherIcon.src = "images/mist.svg"
     } 
-
 
 }
 
