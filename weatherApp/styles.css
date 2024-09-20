@@ -55,6 +55,7 @@ body {
 
 .weather {
     text-align: center;
+    display: none;
 }
 
 .weather-icon {
@@ -98,3 +99,9 @@ body {
     margin-top: -6px;
 }
 
+.error {
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
