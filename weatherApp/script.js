@@ -10,7 +10,7 @@ const weather = document.querySelector(".weather");
 const xrror = document.querySelector(".error");
 
 // API DETAILS
-const apiKey = "96f22d712646aa871ea2d5fb99dedc26";
+const apiKey = "*********************";
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 
 
